@@ -24,6 +24,8 @@ def first_challenge
   end
   
   contacts["Freddy Mercury"][:favorite_icecream_flavors] = flavors
+  
+  contacts
 
   #remember to return your newly altered contacts hash!
   contacts
