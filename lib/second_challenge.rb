@@ -12,9 +12,8 @@ def second_challenge
   
   types.each do |category|
     values = groceries.fetch(category)
-    
-  
+    all_products + values
   end
-  
+  all_products
 
 end
