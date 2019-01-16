@@ -9,9 +9,9 @@ def second_challenge
   #code your solution here!
   types = groceries.keys
   all_products = []
-  puts types
   types.each do |category|
     values = groceries.fetch(category)
+    puts values
     all_products + values
   end
   all_products
