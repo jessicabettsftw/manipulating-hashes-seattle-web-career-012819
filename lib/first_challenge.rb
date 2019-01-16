@@ -22,6 +22,8 @@ def first_challenge
       flavors.pop(flavor)
     end
   end
+  
+  contacts["Freddy Mercury"][:favorite_icecream_flavors] = flavors
 
   #remember to return your newly altered contacts hash!
   contacts
