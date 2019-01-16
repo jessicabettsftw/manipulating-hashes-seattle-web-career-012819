@@ -7,8 +7,13 @@ def second_challenge
   }
 
   #code your solution here!
-  groceries.collect do |type|
-    puts type
+  types = groceries.keys
+  all_products = []
+  
+  types.each do |category|
+    values = groceries.fetch(category)
+    
+  
   end
   
 
