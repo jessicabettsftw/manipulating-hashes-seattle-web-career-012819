@@ -11,7 +11,6 @@ def second_challenge
   all_products = []
   types.each do |category|
     values = groceries.fetch(category)
-    puts values
     all_products.concat(values)
   end
   all_products
