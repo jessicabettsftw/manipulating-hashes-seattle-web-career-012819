@@ -14,7 +14,7 @@ def first_challenge
   }
 
   #your code here
-  flavors = contacts[:freddy][:favorite_icecream_flavors]
+  flavors = contacts[:freddy]
   puts flavors
   flavors.each do |flavor|
     if flavor == "strawberry"
