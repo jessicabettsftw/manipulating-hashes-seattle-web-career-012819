@@ -14,7 +14,12 @@ def first_challenge
   }
 
   #your code here
-
+  flavors = contacts[:freddy][:favorite_icecream_flavors]
+  flavors.each do |flavor|
+    if flavor == "strawberry"
+      flavors.pop(flavor)
+    end
+  end
 
   #remember to return your newly altered contacts hash!
   contacts
