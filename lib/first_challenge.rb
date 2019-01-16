@@ -19,7 +19,7 @@ def first_challenge
   flavors.each do |flavor|
     if flavor == "strawberry"
       puts "removed"
-      flavors.pop(flavor)
+      flavors.delete(flavor)
     end
   end
   
