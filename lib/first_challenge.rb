@@ -15,6 +15,7 @@ def first_challenge
 
   #your code here
   flavors = contacts[:freddy][:favorite_icecream_flavors]
+  puts flavors
   flavors.each do |flavor|
     if flavor == "strawberry"
       puts "removed"
